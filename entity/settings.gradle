@@ -1,0 +1,5 @@
+rootProject.name = 'entity'
+
+include 'ientity'
+	
+project(':ientity').projectDir = new File('../ientity')

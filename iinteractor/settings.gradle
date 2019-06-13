@@ -1,0 +1,5 @@
+rootProject.name = 'iinteractor'
+
+include 'imodel'
+
+project(':imodel').projectDir = new File('../imodel')

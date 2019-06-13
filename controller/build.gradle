@@ -1,0 +1,36 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'war'
+apply from: 'gretty.plugin'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+compileJava.options.encoding = 'UTF-8'
+
+gretty {
+  httpPort = 5092
+  debugPort = 5789
+  debugSuspend = false
+  inplaceMode="hard"
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral ()
+    jcenter()
+}
+
+dependencies {
+
+	compile project(':iinteractor')
+	compile project(':imodel')
+	compile project(':model')
+	
+	compile group: 'org.springframework', name: 'spring-websocket', version: '4.3.5.RELEASE'
+	compile group: 'org.springframework', name:'spring-webmvc' , version: '4.3.5.RELEASE'
+
+	compile group: 'org.springframework.security', name: 'spring-security-core', version: '4.2.2.RELEASE'
+	compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.2.RELEASE'
+	compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.2.RELEASE'
+}

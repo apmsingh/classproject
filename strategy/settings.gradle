@@ -1,0 +1,10 @@
+rootProject.name = 'strategy'
+
+include 'ientity', 'imodel', 'model', 'entity', 'istrategy', 'iplugin'
+	
+project(':ientity').projectDir = new File('../ientity')
+project(':imodel').projectDir = new File('../imodel')
+project(':model').projectDir = new File('../model')
+project(':entity').projectDir = new File('../entity')
+project(':istrategy').projectDir = new File('../istrategy')
+project(':iplugin').projectDir = new File('../iplugin')

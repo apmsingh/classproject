@@ -1,0 +1,10 @@
+rootProject.name = 'interactor'
+
+
+include 'iinteractor', 'imodel', 'model', 'istrategy'
+
+	
+project(':iinteractor').projectDir = new File('../iinteractor')
+project(':imodel').projectDir = new File('../imodel')
+project(':model').projectDir = new File('../model')
+project(':istrategy').projectDir = new File('../istrategy')

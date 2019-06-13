@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile project(':ientity')
+	compile project(':entity')
+	compile project(':imodel')
+	compile project(':model')
+	compile project(':istrategy')
+	compile project(':iplugin')
+}

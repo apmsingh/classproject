@@ -1,0 +1,3 @@
+rootProject.name = 'classproject'
+
+include 'controller', 'entity', 'exception', 'ientity', 'iexception', 'iinteractor', 'imodel', 'interactor', 'iplugin', 'istrategy', 'model', 'plugin', 'strategy'

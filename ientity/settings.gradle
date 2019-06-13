@@ -1,0 +1,5 @@
+rootProject.name = 'ientity'
+
+include 'imodel'
+
+project(':imodel').projectDir = new File('../imodel')

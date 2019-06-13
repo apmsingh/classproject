@@ -1,0 +1,8 @@
+rootProject.name = 'iplugin'
+
+include 'ientity', 'imodel', 'entity'
+
+	
+project(':ientity').projectDir = new File('../ientity')
+project(':imodel').projectDir = new File('../imodel')
+project(':entity').projectDir = new File('../entity')
