@@ -1,0 +1,18 @@
+Documents for Data Creation of Project Class
+
+
+1.
+
+Method: PUT
+Request: http://localhost:9200/classdata/
+body:
+
+{
+    "settings" : {
+        "index" : {
+            "number_of_shards" : 3, 
+            "number_of_replicas" : 2 
+        }
+    }
+}
+

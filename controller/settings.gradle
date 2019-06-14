@@ -1,8 +1,9 @@
 rootProject.name = 'controller'
 
-include 'iinteractor', 'imodel', 'model'
+include 'iinteractor', 'imodel', 'model', 'interactor'
 
 	
 project(':iinteractor').projectDir = new File('../iinteractor')
+project(':interactor').projectDir = new File('../interactor')
 project(':imodel').projectDir = new File('../imodel')
 project(':model').projectDir = new File('../model')

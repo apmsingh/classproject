@@ -14,4 +14,9 @@ dependencies {
 	compile project(':model')
 	compile project(':istrategy')
 	compile project(':iplugin')
+	compile project(':plugin')
+
+	compile group: 'org.springframework', name:'spring-context' , version: '4.3.5.RELEASE'
+	compile group: 'org.springframework', name:'spring-webmvc' , version: '4.3.5.RELEASE'
+	compile group: 'org.springframework', name: 'spring-websocket', version: '4.3.5.RELEASE'
 }

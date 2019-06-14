@@ -1,6 +1,8 @@
 rootProject.name = 'plugin'
 
-include 'ientity', 'entity'
+include 'ientity', 'entity', 'iplugin', 'model'
 	
 project(':ientity').projectDir = new File('../ientity')
 project(':entity').projectDir = new File('../entity')
+project(':iplugin').projectDir = new File('../iplugin')
+project(':model').projectDir = new File('../model')
