@@ -6,10 +6,11 @@
 		<p>Welcome Page of Website</p>
 		<h2>Form Submit Example</h2>
 		<label>URL :</label> <input type="text" name="url" id="url"
-			placeholder="URL" /> <label>Method Type :</label> <input type="text"
+			placeholder="URL" /> <label>Method Type Save:</label> <input type="text"
 			name="method" id="method" placeholder="Method Type" /> <label>Body
 			:</label> <input type="text" name="body" id="body" placeholder="JSON Body" />
 		<button onclick="sendRequestToBackend()">Submit</button>
+		<p id = "result"></p>
 		<script>
 			function sendRequestToBackend() {
 				var url = document.getElementById("url").value;
@@ -34,6 +35,7 @@
 
 				Http.onreadystatechange = (e) => {
 				  console.log(Http.responseText)
+				  alert(result);
 				}
 				document.getElementById("url").value = "world"
 			}
