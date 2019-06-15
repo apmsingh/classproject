@@ -16,9 +16,4 @@ public class InitializeDatabaseController {
     
   }
   
-  @RequestMapping(value = "/")
-  String basePage()
-  {
-    return "Waiting For GUI Painting";
-  }
 }

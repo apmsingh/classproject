@@ -16,3 +16,121 @@ body:
     }
 }
 
+
+2. Create doctype and document
+
+Method: PUT
+Request: http://localhost:9200/classdata/student/1
+
+body:
+a) {
+  "id": "1",
+  "email": "abhay@gmail.com",
+  "phoneNumber": 8888855555,
+  "fatherName": "Mrityunjay",
+  "address": "At post patansawangi, Saoner",
+  "gender": "Male",
+  "joiningDate": "1346758",
+  "birthDate": "1234567",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Nagpur",
+  "pinCode": "441113"
+}
+
+b) http://localhost:9200/classdata/student/2
+{
+  "id": "2",
+  "email": "mohanish@gmail.com",
+  "phoneNumber": 7888855555,
+  "fatherName": "Purushottam",
+  "address": "At post patansawangi, Saoner",
+  "gender": "Male",
+  "joiningDate": "1346758",
+  "birthDate": "1256567",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Nagpur",
+  "pinCode": "441113"
+}
+
+
+c) http://localhost:9200/classdata/student/3
+{
+  "id": "3",
+  "email": "nikita@gmail.com",
+  "phoneNumber": 7568855555,
+  "fatherName": "Ravindraji",
+  "address": "At post patansawangi, Saoner",
+  "gender": "Female",
+  "joiningDate": "1346758",
+  "birthDate": "1256127",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Nagpur",
+  "pinCode": "442113"
+}
+
+d) http://localhost:9200/classdata/student/4
+{
+  "id": "4",
+  "email": "abha@gmail.com",
+  "phoneNumber": 7568655555,
+  "fatherName": "Ravindraji",
+  "address": "At post walni, Saoner",
+  "gender": "Female",
+  "joiningDate": "1346758",
+  "birthDate": "1986127",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Nagpur",
+  "pinCode": "441213"
+}
+
+e) http://localhost:9200/classdata/student/5
+{
+  "id": "5",
+  "email": "aniket@gmail.com",
+  "phoneNumber": 7568623555,
+  "fatherName": "Vikram",
+  "address": "At post dahegao, Saoner",
+  "gender": "Male",
+  "joiningDate": "1346758",
+  "birthDate": "1986127",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Nagpur",
+  "pinCode": "441113"
+}
+
+f) http://localhost:9200/classdata/student/6
+{
+  "id": "6",
+  "email": "pankaj@yahoo.com",
+  "phoneNumber": 7568623125,
+  "fatherName": "Vishal",
+  "address": "At post pipla, Saoner",
+  "gender": "Male",
+  "joiningDate": "2346758",
+  "birthDate": "19845127",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Nagpur",
+  "pinCode": "441133"
+}
+
+g) http://localhost:9200/classdata/student/7
+{
+  "id": "7",
+  "email": "imran@yahoo.com",
+  "phoneNumber": 7948623125,
+  "fatherName": "Abdul",
+  "address": "At post khaperkheda, Saoner",
+  "gender": "Male",
+  "joiningDate": "2346758",
+  "birthDate": "19845187",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Nagpur",
+  "pinCode": "441133"
+}
