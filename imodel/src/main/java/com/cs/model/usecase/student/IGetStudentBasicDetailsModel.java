@@ -1,5 +1,7 @@
 package com.cs.model.usecase.student;
 
+import java.util.List;
+
 public interface IGetStudentBasicDetailsModel extends IGetStudentByIdModel {
   
   public static final String NAME         = "name";
@@ -14,6 +16,8 @@ public interface IGetStudentBasicDetailsModel extends IGetStudentByIdModel {
   public static final String STATE        = "state";
   public static final String CITY         = "city";
   public static final String PIN_CODE     = "pinCode";
+  public static final String STANDARD     = "standard";
+  public static final String COURSES      = "courses";
   
   public String getId();
   public void setId(String id);
@@ -50,5 +54,13 @@ public interface IGetStudentBasicDetailsModel extends IGetStudentByIdModel {
 
   public String getPinCode();
   public void setPinCode(String pinCode);
-  
+
+  public String getName();
+  public void setName(String name);
+
+  public String getStandard();
+  public void setStandard(String standard);
+
+  public List<String> getCourses();
+  public void setCourses(List<String> courses);
 }

@@ -25,6 +25,9 @@ Request: http://localhost:9200/classdata/student/1
 body:
 a) {
   "id": "1",
+  "name": "Abhay",
+  "standard": "10th",
+  "courses": [],
   "email": "abhay@gmail.com",
   "phoneNumber": 8888855555,
   "fatherName": "Mrityunjay",
@@ -41,6 +44,9 @@ a) {
 b) http://localhost:9200/classdata/student/2
 {
   "id": "2",
+  "name": "Mohanish",
+  "standard": "10th",
+  "courses": [],
   "email": "mohanish@gmail.com",
   "phoneNumber": 7888855555,
   "fatherName": "Purushottam",
@@ -58,6 +64,9 @@ b) http://localhost:9200/classdata/student/2
 c) http://localhost:9200/classdata/student/3
 {
   "id": "3",
+  "name": "Nikita",
+  "standard": "12th",
+  "courses": [],
   "email": "nikita@gmail.com",
   "phoneNumber": 7568855555,
   "fatherName": "Ravindraji",
@@ -74,6 +83,9 @@ c) http://localhost:9200/classdata/student/3
 d) http://localhost:9200/classdata/student/4
 {
   "id": "4",
+  "name": "Abha",
+  "standard": "10th",
+  "courses": [],
   "email": "abha@gmail.com",
   "phoneNumber": 7568655555,
   "fatherName": "Ravindraji",
@@ -90,6 +102,9 @@ d) http://localhost:9200/classdata/student/4
 e) http://localhost:9200/classdata/student/5
 {
   "id": "5",
+  "name": "Aniket",
+  "standard": "12th",
+  "courses": [],
   "email": "aniket@gmail.com",
   "phoneNumber": 7568623555,
   "fatherName": "Vikram",
@@ -106,6 +121,9 @@ e) http://localhost:9200/classdata/student/5
 f) http://localhost:9200/classdata/student/6
 {
   "id": "6",
+  "name": "Pankaj",
+  "standard": "8th",
+  "courses": [],
   "email": "pankaj@yahoo.com",
   "phoneNumber": 7568623125,
   "fatherName": "Vishal",
@@ -122,6 +140,9 @@ f) http://localhost:9200/classdata/student/6
 g) http://localhost:9200/classdata/student/7
 {
   "id": "7",
+  "name": "Imran",
+  "standard": "10th",
+  "courses": [],
   "email": "imran@yahoo.com",
   "phoneNumber": 7948623125,
   "fatherName": "Abdul",

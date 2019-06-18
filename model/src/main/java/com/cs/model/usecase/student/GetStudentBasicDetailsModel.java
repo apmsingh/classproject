@@ -1,5 +1,7 @@
 package com.cs.model.usecase.student;
 
+import java.util.List;
+
 public class GetStudentBasicDetailsModel extends GetStudentByIdModel
     implements IGetStudentBasicDetailsModel {
   
@@ -15,6 +17,9 @@ public class GetStudentBasicDetailsModel extends GetStudentByIdModel
   private String            state;
   private String            city;
   private String            pinCode;
+  private List<String>      courses;
+  private String            standard;
+  private String            name;
   
   @Override
   public String getEmail()
@@ -147,5 +152,40 @@ public class GetStudentBasicDetailsModel extends GetStudentByIdModel
   {
     this.pinCode = pinCode;
   }
-  
+
+  @Override
+  public String getName()
+  {
+    return name;
+  }
+
+  @Override
+  public void setName(String name)
+  {
+    this.name = name;
+  }
+
+  @Override
+  public String getStandard()
+  {
+    return standard;
+  }
+
+  @Override
+  public void setStandard(String standard)
+  {
+    this.standard = standard;
+  }
+
+  @Override
+  public List<String> getCourses()
+  {
+    return courses;
+  }
+
+  @Override
+  public void setCourses(List<String> courses)
+  {
+    this.courses = courses;
+  }
 }
